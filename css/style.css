@@ -1,0 +1,141 @@
+body{
+    margin:0;
+    padding:0;
+}
+/*------------Titre----------------------*/
+.titre{
+    
+    background-image: linear-gradient( to bottom,blue,black);
+    height: 200px;
+    border:  5px groove rgb(238, 237, 237);
+    border-radius: 20px;
+}
+.principal{
+    font-size: 70px;
+    color: #F2D0A7;
+    text-align: center;
+}
+
+/*------------Liste-------------------------------------------------------------*/
+
+/*------------fond bleu--------*/
+.fond{
+    background-image: linear-gradient( to bottom,blue,black);
+    height:120px;
+    width: 900px;
+    border:  5px groove rgb(238, 237, 237);
+    border-radius: 20px;
+}
+
+.mini{
+    position:absolute;
+    top: 200px;
+    left: 600px;
+}
+.survole{
+    background-image: linear-gradient( to bottom,red,black);
+    height:118px;
+    width: 895px;
+    border:  5px groove rgb(238, 237, 237);
+    border-radius: 20px;
+}
+
+/*------------txt--------*/
+
+.txt{
+    position: relative;
+    top: 35px;
+    left: 20px;
+    font-size: 37px;
+    text-decoration: none;
+    color: wheat;
+}
+
+
+/*------------slider-------------------------------------------*/
+
+/*------------background slider---------------*/
+
+.fond_slide{
+    position: relative;
+    background-image: linear-gradient( to bottom,blue,black);
+    width:1000px;
+    height: auto;
+    border:  5px groove rgb(238, 237, 237);
+    border-radius: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction:row;
+   
+    
+}
+
+
+.slider{
+    position: relative;
+    left: 235px;
+    top: 50px;
+    display:flex;
+    width:500px;
+    overflow:hidden;
+}
+.slides{
+    display:flex;
+    animation: glisse 10s infinite;
+
+}
+
+
+
+/*------------animation slider--------*/
+@keyframes glisse
+{
+    0%{
+        transform: translateX(0);
+    }
+
+    10%{
+        transform: translateX(0);
+    }
+
+    33%{
+        transform: translateX(-500px);
+    }
+
+    43%{
+        transform: translateX(-500px);
+    }
+
+    66%{
+        transform: translateX(-1000px);
+    }
+
+    76%{
+        transform: translateX(-1000px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+/*------------citations--------*/
+
+
+.citation{
+    margin-top:115px;
+    font-size:35px;
+    text-align:center;
+    font-style: italic;
+    color: #F2D0A7;
+}
+
+.auteur{
+   
+    font-size:35px;
+    text-align:center;
+    font-style: italic;
+    color: #F2D0A7;
+}

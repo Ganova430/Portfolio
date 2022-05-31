@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/fondBleu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro{
+    font-size: 65px;
+    text-align:center;
+    color:#f1f1f1;
+}
+
+.nom{
+    color:#f1f1f1;
+    margin-left: 45px;
+    font-size:33px;
+    text-align:left;
+}
+
+.droite{
+    display:flex;
+    flex-direction:row;
+}
+
+.cloud{
+    margin-top: 140px;
+    margin-left: 150px;
+    width: 200px;
+    height:200px;
+}
+
+
+
+.case{
+    
+    background-image:linear-gradient(to left, rgb(23, 135, 240),rgb(30, 84, 244));
+    background-size: 800px;
+    background-repeat: no-repeat;
+    border: 5px groove #f1f1f1;
+    border:5px groove rgb(238, 237, 237);
+    border-radius: 20px;
+    width: 800px;
+    margin: 15px;
+    margin-left: 25px;
+}
+
+.txt{
+    color:#f1f1f1;
+    margin-left: 45px;
+    font-size:33px;
+    text-align:left;
+}
+
+
+.case2{
+    background-image:linear-gradient(to left, rgb(23, 135, 240),rgb(30, 84, 244));
+    background-size: 800px;
+    background-repeat: no-repeat;
+    border: 5px groove #f1f1f1;
+    border:5px groove rgb(238, 237, 237);
+    border-radius: 20px;
+    width: 800px;
+    margin: 15px;
+    margin-left:150px;
+}
+
+.txt2{
+    color:#f1f1f1;
+    margin-left:45px;
+    margin-right: 25px;
+    margin-bottom:30px;
+    font-size:33px;
+    text-align:left;
+}
+
+
+.gauche{
+    margin-top: 150px;
+    display:flex;
+    flex-direction:row;
+}
+
+.cloud2{
+    margin-left: 150px;
+    margin-top: 250px;
+    width: 200px;
+    height:200px;
+}
+
+
+.case3{
+    background-image:linear-gradient(to left, rgb(23, 135, 240),rgb(30, 84, 244));
+    background-size: 800px;
+    background-repeat: no-repeat;
+    border: 5px groove #f1f1f1;
+    border:5px groove rgb(238, 237, 237);
+    border-radius: 20px;
+    width: 800px;
+    margin: 15px;
+    margin-left:150px;
+}
+
+.txt3{
+    color:#f1f1f1;
+    margin-left: 45px;
+    font-size:33px;
+    text-align:left;
+}
+
+.droite2{
+    margin-top: 150px;
+    display:flex;
+    flex-direction:row;
+}
+
+.cloud3{
+    margin-top: 140px;
+    margin-left: 150px;
+    width: 300px;
+    height:300px;
+}
+
+.sommaire{
+    display:block;
+    margin-top:150px;
+    margin-bottom:100px;
+
+    margin-left:600px;
+    width:600px;
+    height: 100px;
+    line-height: 100px;
+    background-image:linear-gradient(to right, rgb(23, 135, 240),rgb(30, 84, 244) 55%);
+    border:  5px groove rgb(238, 237, 237);
+    font-size: 32px;
+    text-align: center;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.sommaire:hover,.sommaire:focus{
+    color: rgb(238, 237, 237);
+ 
+ }

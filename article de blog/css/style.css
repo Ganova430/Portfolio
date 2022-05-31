@@ -1,0 +1,166 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#F2BC8D;
+}
+#titre{
+    color:#ECDFCE;
+    font-size:100px;
+    text-align:center;
+}
+
+.soustitre{
+    margin-top: 10px;
+    margin-bottom:-65px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.sous{
+    text-align:center;
+    font-size: 55px;
+}
+#photo{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color:#F2E1AC;
+    width:1800px;
+    height:500px;
+    margin:10px;
+    margin-left:60px;
+    
+    
+}
+
+#image{
+    margin: 50px;
+} 
+
+.article-deux{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    
+}
+.titre-deux{
+    text-align:center;
+    margin-bottom:-65px;
+    display: flex;
+    flex-direction:column;
+    font-size: 36px;
+}
+
+.texte{
+    margin-top:60px;
+    font-size:22px;
+}
+
+#box{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+
+#deux{
+    display:flex;
+    flex-direction:row-reverse;
+}
+#cosmétique{
+    margin:55px;
+}
+#grey_box{
+    margin-right:45px;
+    margin-top:50px;
+    background-color:#D9C4B8;
+    width:600px;
+    height:550px;
+
+}
+#txt{
+    margin:60px;
+    margin-top:125px;
+    font-size:33px;
+}
+
+.pub{
+
+    margin-top:25px;
+
+    display:flex;
+    flex-direction:row;
+}
+.tendance{
+    margin:25px;
+    background-color:#F2E1AC;
+    display:flex;
+    flex-direction:column;
+}
+
+.tit{
+    margin-bottom:-18px;
+    font-size:45px;
+    text-align:center;
+}
+
+
+.format{
+    margin: 25px;
+    width: 600px;
+    height: auto;
+}
+
+.lien{
+    font-size:30px;
+    text-align:center;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+.navi::after{
+    content:"";
+    display:block;
+    width: 100%;
+    height:1.8px;
+    background-color:black;
+    transform:scale(0) ; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.navi:hover::after{
+    transform:scale(0.1); 
+}
+
+a:hover{
+    color:red;
+}
+
+.sommaire{
+    display:block;
+    margin-top:35px;
+    margin-left:600px;
+    margin-bottom: 120px;
+    width:600px;
+    height: 100px;
+    line-height: 100px;
+    background-image:linear-gradient(to right, rgb(23, 135, 240),rgb(30, 84, 244) 55%);
+    border:  5px groove rgb(238, 237, 237);
+    font-size: 32px;
+    text-align: center;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.sommaire:hover,.sommaire:focus{
+    color: rgb(238, 237, 237);
+ 
+ }

@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url("../adobe/fond.jpg");
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+    background-color: rgba(37, 37, 39,85%);
+    border: 2px groove gold;
+}
+.flecheG{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+    height:100px;
+     animation: liens 0.7s infinite;
+}
+
+
+
+@keyframes liens{
+    0%{
+transform: scale(100%);
+    }
+
+    50%{
+        transform: scale(80%);
+    }
+
+    100%{
+       
+        transform: scale(100%);
+    }
+}
+
+
+
+
+.next{margin-top:50px;
+    margin-left: 350px;
+    font-size: 38px;
+    color: #f1f1f1;
+}
+
+
+.fleche{
+    display: flex;
+    flex-direction: row;
+}
+.prev{margin-top:45px;
+    margin-left: 60px;
+    font-size: 38px;
+    color: #f1f1f1;
+}
+.adobe{
+    margin-left: 430px;
+    margin-top:45px;
+    font-size: 60px;
+    color: #f1f1f1;
+}
+
+.adobe2{
+    margin-left:345px;
+    margin-top:45px;
+    font-size: 60px;
+    color: #f1f1f1;
+}
+
+.sousTitre{
+    background-image: linear-gradient(to left, rgb(23, 135, 240),rgb(30, 84, 244));
+    background-size: 400px;
+    background-repeat: no-repeat;
+    border: 2px groove gold;
+    border-radius: 5px;
+    width: 300px;
+    margin-left:800px;
+    margin-top:50px;
+}
+
+.photoshop{
+    color: #f1f1f1;
+    font-size: 50px;
+    margin-left:33px;
+}
+
+.info{
+    text-align: center;
+    font-size: 35px;
+    color: #f1f1f1;
+}
+
+
+/*--------------------------AFTER EFFECT-----------------------------------------------------------*/
+
+.disposition{
+    display: flex;
+    flex-direction:row;
+    margin-left: 186px;
+
+}
+
+
+.after{
+    margin: 12px;
+    width:500px;
+    height:auto;
+}
+.after_map{
+    margin: 12px;
+    width:560px;
+    height:auto; 
+}
+
+.centrage{
+   display: flex;
+   justify-content: center;
+   
+}
+
+.size{
+    width: 600px;
+    height: auto;
+}
+
+.marge{
+    width:350px;
+    height: auto;
+    margin:150px;
+}

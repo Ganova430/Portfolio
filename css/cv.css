@@ -1,0 +1,350 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../cv/fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sommaire{
+    display:block;
+    margin-top:35px;
+    margin-left:600px;
+    width:600px;
+    height: 100px;
+    line-height: 100px;
+    background-image:linear-gradient(to right, rgb(23, 135, 240),rgb(30, 84, 244) 55%);
+    border:  5px groove rgb(238, 237, 237);
+    font-size: 32px;
+    text-align: center;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.sommaire:hover,.sommaire:focus{
+    color: rgb(238, 237, 237);
+ 
+ }
+
+
+.general{
+    display: flex;
+    flex-direction: row;
+}
+.fond{
+    display: flex;
+    flex-direction: row;
+    background-image:linear-gradient(to right, rgb(30, 84, 244) 55%,rgb(23, 135, 240));
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    border:  5px groove rgb(238, 237, 237);
+    margin:150px;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+.moi{
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.nom{
+    margin-top:80px;
+    margin-left:30px;
+    margin-right: 50px;
+    font-size:45px;
+    color: #f1f1f1;;
+}
+
+.attribut{
+    display: flex;
+    flex-direction: column;
+}
+.hp{
+    margin-top:50px;
+    margin-left:300px;
+    margin-right:150px;
+    font-size: 32px;
+    color: rgb(226, 186, 43);
+}
+
+.mp{
+    margin-top:0px;
+    margin-left: 300px;
+    margin-right:150px;
+    font-size: 28px;
+    color: rgb(226, 186, 43);
+}
+
+.info{
+    display: flex;
+    flex-direction:column;
+    background-image:linear-gradient(to right, rgb(23, 135, 240),rgb(30, 84, 244) 55%);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    border:  5px groove rgb(238, 237, 237);
+    margin-right: 100px;
+    margin:150px;
+    margin-top: 50px;
+}
+.coordonées{
+    text-align: center;
+    color: #f1f1f1;
+    margin:8px;
+    margin-top: 15px;
+    margin-left:30px;
+    font-size:25px;
+}
+
+.sous_titre{
+    display:block;
+    margin-top:200px;
+    margin-left:170px;
+    width:300px;
+    height: 100px;
+    line-height: 100px;
+    background-image:linear-gradient(to right, rgb(23, 135, 240),rgb(30, 84, 244) 55%);
+    border:  5px groove rgb(238, 237, 237);
+    font-size: 32px;
+    text-align: center;
+    display: block;
+}
+
+
+.aligne{
+    display: flex;
+    flex-direction: row;
+}
+/*--------------------overlay------------------*/
+.overlay{
+   height:0;
+   width:550px;
+   position: fixed;
+   z-index: 1;
+   left: 50px;
+   bottom: 0;
+   background-color:rgb(23, 135, 240) ;
+   border:  5px groove rgb(238, 237, 237);
+   overflow-y: hidden;
+   transition:0.5s;
+
+}
+
+
+
+.overlay_content{
+    position: relative;
+    top: 50%;
+    height: 30%;
+}
+
+
+.placement{
+    position: relative;
+    bottom:130px;
+}
+
+.ligne1{
+    margin-left: 80px;
+    background-color: black;
+    width: 400px; 
+    height:3px;
+}
+
+.ligne2{
+    margin-left: 80px;
+    background-color: black;
+    width: 400px; 
+    height:3px;
+}
+
+.ligne3{
+    margin-left: 80px;
+    background-color: black;
+    width: 400px; 
+    height:3px;
+}
+
+.formation{
+    margin:15px;
+    font-size: 35px;
+    color: rgb(238, 237, 237);
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+
+.sous_titre:hover,.sous_titre:focus{
+   color: rgb(238, 237, 237);
+
+}
+
+.closebtn{
+    position: absolute;
+    top: 15px;
+    right:500px;
+    font-size :45px;
+}
+
+/*--------------------overlay 2------------------*/
+.overlay2{
+    height:0;
+    width:550px;
+    position: fixed;
+    z-index: 1;
+    left:680px;
+    bottom: 0;
+    background-color:rgb(23, 135, 240) ;
+    border:  5px groove rgb(238, 237, 237);
+    overflow-y: hidden;
+    transition:0.5s;
+ 
+ }
+ 
+ 
+ 
+ .overlay_content2{
+     position: relative;
+     top: 50%;
+     height: 30%;
+ }
+
+
+ .sous_titre2{
+    display:block;
+    margin-top:200px;
+    margin-left:330px;
+    width:300px;
+    height: 100px;
+    line-height: 100px;
+    background-image:linear-gradient(to right, rgb(23, 135, 240),rgb(30, 84, 244) 55%);
+    border:  5px groove rgb(238, 237, 237);
+    font-size: 32px;
+    text-align: center;
+    display: block;
+}
+
+.sous_titre2:hover,.sous_titre2:focus{
+    color: rgb(238, 237, 237);
+ 
+ }
+
+ .experience{
+    margin:15px;
+    font-size: 35px;
+    color: rgb(238, 237, 237);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.ligne4{
+    margin-left: 80px;
+    background-color: black;
+    width: 400px; 
+    height:3px;
+}
+
+.ligne5{
+    margin-left: 80px;
+    background-color: black;
+    width: 400px; 
+    height:3px;
+}
+
+/*--------------------overlay 3------------------*/
+
+
+.overlay3{
+    height:0;
+    width:550px;
+    position: fixed;
+    z-index: 1;
+    left:1300px;
+    bottom: 0;
+    background-color:rgb(23, 135, 240) ;
+    border:  5px groove rgb(238, 237, 237);
+    overflow-y: hidden;
+    transition:0.5s;
+ 
+ }
+ 
+ 
+ 
+ .overlay_content3{
+     position: relative;
+     top: 50%;
+     height: 30%;
+ }
+
+
+ .sous_titre3{
+    display:block;
+    margin-top:200px;
+    margin-left:330px;
+    width:300px;
+    height: 100px;
+    line-height: 100px;
+    background-image:linear-gradient(to right, rgb(23, 135, 240),rgb(30, 84, 244) 55%);
+    border:  5px groove rgb(238, 237, 237);
+    font-size: 32px;
+    text-align: center;
+    display: block;
+}
+
+.sous_titre3:hover,.sous_titre2:focus{
+    color: rgb(238, 237, 237);
+ 
+ }
+
+ .experience{
+    margin:15px;
+    font-size: 35px;
+    color: rgb(238, 237, 237);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.ligne4{
+    margin-left: 80px;
+    background-color: black;
+    width: 400px; 
+    height:3px;
+}
+
+.ligne5{
+    margin-left: 80px;
+    background-color: black;
+    width: 400px; 
+    height:3px;
+}
+
+.ligne{
+    margin-left: 80px;
+    background-color: black;
+    width: 400px; 
+    height:3px;
+}
+
+.stats{
+
+    margin:15px;
+    font-size: 35px;
+    color: rgb(238, 237, 237);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.placement2{
+    position: relative;
+    bottom:170px;
+}
+
+
+

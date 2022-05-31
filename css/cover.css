@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #f1f1f1;
+    position: relative;
+}
+
+.logo{
+    position:fixed;
+    z-index: -1;
+    left: 560px;
+    top:100px;
+
+
+}
+.x{
+    width: 800px;
+    height:auto;
+}
+.centre{
+    margin-top: 300px;
+    margin-left: 525px;
+}
+.titre{
+    display:flex;
+    flex-direction: row;
+}
+.ganova{
+    
+    width:530px;
+    height: auto;
+    animation: ganova 1s ease-in-out;
+}
+
+
+@keyframes ganova{
+    0%{
+transform:translateX(-1220px)
+    }
+
+    100%{
+transform:translateX(0px)
+    }
+
+}
+
+
+.tony{
+    width:530px;
+    height: auto;
+    animation: tony 1.2s ease-in;
+}
+
+@keyframes tony{
+    0%{
+transform:translateY(-1220px)
+    }
+
+    100%{
+transform:translateY(0px)
+    }
+}
+
+
+
+.ligne{
+    background-color: black;
+    width: 830px;
+    height: 10px;
+    margin-left: 7px;
+    animation: ligne 3s ease;
+}
+
+
+@keyframes ligne{
+    0%{
+opacity:0%;
+    }
+
+    100%{
+        opacity:100%;
+    }
+}
+
+.book{
+    margin-top:150px;
+    color: black;
+    font-size:100px;
+    text-align: center;
+}
+
+.lien{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    text-decoration: none;
+    color:rgb(224, 154, 14);
+    animation: liens 0.7s infinite;
+}
+
+@keyframes liens{
+    0%{
+opacity:100%;
+transform: scale(100%);
+    }
+
+    50%{
+        opacity:80%;
+        transform: scale(80%);
+    }
+
+    100%{
+        opacity:100%;
+        transform: scale(100%);
+    }
+}
+.iloi{
+    height:150px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.logo_iloi{
+    width: 150px;
+    height: auto;
+}
+
+.an{
+    margin-top:88px;
+    color:rgb(224, 154, 14);
+    font-size: 32px;
+    margin-left:12px;
+}
+
+@keyframes ganova{
+    0%{
+transform:translateX(-1220px)
+    }
+
+    100%{
+transform:translateX(0px)
+    }
+
+}
+

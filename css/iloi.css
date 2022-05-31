@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding: auto;
+    background-image: url("../13/fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.titre{
+    font-size: 70px;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.ligne{
+    margin-top:20px;
+    background-color: black;
+    width: cover;
+    height:8px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.liste{
+    margin: 0px;
+    padding: 0px;
+}
+
+.info{
+    margin-top:10px;
+}
+.sommaire{
+    list-style: none;
+    font-size:30px;
+    margin:3px;
+    background-image: linear-gradient( to right,black 50%,grey,rgb(195, 194, 194));
+    background-size:360px;
+    background-repeat: no-repeat;
+}
+
+.liens{
+    margin-left:25px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.image{
+    margin-top:100px;
+    margin-left:20px;
+    padding:0px;
+    width: 230px;
+    height: auto;
+}
+
+
+
+
+.un{
+    width: 218px;
+    height: auto;
+}
+
+.quatre{
+    width: 220px;
+    height: auto;
+}
+
+.ligne2{
+    margin-top:25px;
+    background-color: black;
+    width: cover;
+    height:50px;
+}
+
+.ligne3{
+    margin-top:8px;
+    background-color: black;
+    width: cover;
+    height:20px;
+}
+.bonus{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+
+}
+.gils{
+    font-size: 35px;
+    color: rgb(226, 186, 43);
+}
+
+.jeux{
+    font-size: 35px;
+    color: rgb(226, 186, 43);
+    margin-left: 50px;
+}

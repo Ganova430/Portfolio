@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url("../adobe/fond.jpg");
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+    background-color: rgba(37, 37, 39,85%);
+    border: 2px groove gold;
+}
+.flecheG{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+    height:100px;
+     animation: liens 0.7s infinite;
+}
+
+.flecheD{
+    margin-top: 32px;
+    margin-left: 100px;
+    width: 95px;
+    height:75px;
+    animation: liens 0.7s infinite;
+}
+
+@keyframes liens{
+    0%{
+transform: scale(100%);
+    }
+
+    50%{
+        transform: scale(80%);
+    }
+
+    100%{
+       
+        transform: scale(100%);
+    }
+}
+
+
+
+
+.next{margin-top:50px;
+    margin-left: 350px;
+    font-size: 38px;
+    color: #f1f1f1;
+}
+
+
+.fleche{
+    display: flex;
+    flex-direction: row;
+}
+.prev{margin-top:45px;
+    margin-left: 60px;
+    font-size: 38px;
+    color: #f1f1f1;
+}
+.adobe{
+    margin-left: 430px;
+    margin-top:45px;
+    font-size: 60px;
+    color: #f1f1f1;
+}
+
+.adobe2{
+    margin-left:345px;
+    margin-top:45px;
+    font-size: 60px;
+    color: #f1f1f1;
+}
+
+.sousTitre{
+    background-image: linear-gradient(to left, rgb(23, 135, 240),rgb(30, 84, 244));
+    background-size: 400px;
+    background-repeat: no-repeat;
+    border: 2px groove gold;
+    border-radius: 5px;
+    width: 300px;
+    margin-left:800px;
+    margin-top:50px;
+}
+.marge{
+    width:270px;
+    height: auto;
+    margin:8px;
+}
+
+.photoshop{
+    color: #f1f1f1;
+    font-size: 50px;
+    margin-left:33px;
+}
+
+.illustrator{
+    color: #f1f1f1;
+    font-size: 50px;
+    margin-left:40px;
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    text-align: center;
+    font-size: 35px;
+    color: #f1f1f1;
+}
+
+.centrage{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+}
+
+.info2{
+    margin:20px;
+    text-align: center;
+    font-size: 35px;
+    color: #f1f1f1;
+}
+
+.espace_livre{
+    margin: 10px;
+    width: 150px;
+    height: auto;
+}
+
+.Shirt{
+  
+    margin: 10px;
+    width: 755px;
+    height: auto;
+}
+.bottom{
+    margin-bottom:100px;  
+}
+.marge_bottom{
+    margin: 10px;
+    width: 200px;
+    margin-bottom:100px; 
+    height: auto;
+}
+
+
+.bd{
+    color: #f1f1f1;
+    font-size: 50px;
+    margin-left:110px;
+}
+
+.main1{
+    width: 300px;
+    height: auto;
+}
+
+.main2{
+    width: 240px;
+    height: auto;
+}
+
+.main3{
+    width: 362px;
+    height: auto;
+}
+
+.main4{
+    width: 312px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.corps1{
+    width: 312px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.corps2{
+    width: 273px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+
+.corps3{
+    width: 283px;
+    height: auto;
+    margin-bottom: 100px;
+
+}
+
+.corps4{
+    width: 275px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.margeS{
+    margin: 10px;
+    width: 280px;
+    margin-bottom:100px; 
+    height: auto;
+}
+
+.chara1{
+    margin: 10px;
+    width: 275px;
+    margin-bottom:100px; 
+    height: auto;
+}
+
+.chara2{
+    margin: 10px;
+    width: 270px;
+    margin-bottom:100px; 
+    height: auto;
+}
+
+.planche{
+    margin: 10px;
+    width: 139px;
+    margin-bottom:100px; 
+    height: auto;
+}
+
+.site{
+    text-align: center;
+    margin-top:35px;
+    margin-left:600px;
+    width:600px;
+    height: 100px;
+    line-height: 100px;
+    background-image:linear-gradient(to right, rgb(23, 135, 240),rgb(30, 84, 244) 55%);
+    border:  5px groove rgb(238, 237, 237);
+    font-size: 32px;
+    text-align: center;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.site:hover,.site:focus{
+    color: rgb(238, 237, 237);
+ 
+ }
+
+ .sousTitre_créa{
+    background-image: linear-gradient(to left, rgb(23, 135, 240),rgb(30, 84, 244));
+    background-size: 400px;
+    background-repeat: no-repeat;
+    border: 2px groove gold;
+    border-radius: 5px;
+    width: 300px;
+    margin-left:750px;
+    margin-top:50px;
+}
+
+.digitale{
+    color: #f1f1f1;
+    font-size: 50px;
+    margin-left:110px;
+}
+
+.wildFest{
+    color: #f1f1f1;
+    font-size: 50px;
+    margin-left:50px;
+}
